@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Graphviz" Version="2.38.0.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="GraphViz.NET" Version="1.0.0" />
+    <PackageReference Include="Magick.NET.SystemWindowsMedia" Version="4.0.9" />
+    <PackageReference Include="Microsoft.ML.Probabilistic" Version="0.3.2102.1701" />
+    <PackageReference Include="Microsoft.ML.Probabilistic.Compiler" Version="0.3.2102.1701" />
+    <PackageReference Include="Microsoft.ML.Probabilistic.Learners" Version="0.3.2102.1701" />
+    <PackageReference Include="Microsoft.Research.Glo" Version="1.0.0" />
+    <PackageReference Include="Microsoft.Research.GloObject" Version="1.0.0" />
+    <PackageReference Include="QuickGraph" Version="3.6.61119.7" />
+    <PackageReference Include="System.Runtime.WindowsRuntime.UI.Xaml" Version="4.7.0" />
+  </ItemGroup>
+
+</Project>
